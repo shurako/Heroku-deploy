@@ -1,0 +1,128 @@
+.note{
+    background-color: white;
+    border-radius: 5px;
+    margin:5px ;
+    
+}
+
+.note__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+    
+}
+
+.note:hover{
+    background-color:rgb(240, 236, 236);
+}
+
+.note__content p {
+    border: none;
+    flex-grow: 1;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 5px
+}
+.note__content button {
+    border: none;
+    background-color: rgb(177, 0, 0);
+    height: 30px;
+    width: 30px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.note__content input:focus {
+   outline: none;
+}
+.note-details{
+    position: absolute;
+    width: 100vw;   
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.685);
+    top: 0;
+    left: 0;
+}
+
+.note-details__wrapper{
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    background-color: #f2f3fd;
+    padding: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: scroll;
+    display: flex;
+    cursor: default;
+}
+.note-details__top{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.note-details__icon{
+    font-size: 24px;
+}
+.note-details__header__wrapper{
+    margin-left: 20px;
+}
+.note-details__header{
+    font-size: 20px;
+}
+
+.note-detaild__middle{
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.note-details__details__wrapper{
+    margin-left: 20px;
+}
+
+.note-details__details__description{
+    margin-top: 10px;
+    width: 500px;
+}
+
+.note-details__details__description textarea{
+    width: 100%;
+    min-height: 80px
+}
+
+.note-details__bottom{
+    display: flex;
+}
+
+.note-details__comments{
+    margin-left: 20px;
+    
+}
+
+.comment-input{
+    width: 500px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+
+.note-options{
+    position: absolute;
+    top:0;
+    right:0;
+    transform: translate(100%,0);
+    background-color: white;
+}
+.note-title-form__input{
+    width: 500px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 17px;
+}

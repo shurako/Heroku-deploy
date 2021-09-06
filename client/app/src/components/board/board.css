@@ -1,0 +1,89 @@
+.boards__wrapper{
+    display: flex;
+    height: 88vh;
+    align-items: flex-start;
+    min-width: 100%;
+    overflow-x: scroll;
+}
+
+.board{
+    width: 320px;
+    padding: 6px;
+    margin: 4px;
+    background-color: #ebecf0;
+    flex-shrink: 0;
+}
+
+.boardInput{
+    display: flex;
+    align-items: center;
+    padding: 10px 4px;
+    
+}
+.boardInput input{
+    border: none;
+    background-color:#ebecf0;
+    font-size: 18px;
+    font-weight:600;
+
+}
+.boardInput input:focus{
+    outline: none;
+}
+.add-card__form{
+    
+    align-items: center;
+    margin-top: 18px;
+    
+}
+.add-card__input__wrapper{
+    display: flex;
+    align-items: center;;
+    margin:5px;
+    border-radius: 5px;
+    
+}
+
+.add-card__input__wrapper:focus-within{
+    background-color: white;
+}
+
+.add-card__input{
+    border:none;
+    background-color: transparent;
+    flex-grow: 1;
+    padding: 4px;
+}
+
+
+.add-card__input:focus{
+    outline: none;
+
+}
+
+.add-card__button__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 5px;
+}
+.add-card__btn{
+    border: none;
+    color: white;
+    height: 18px;
+    width: 50px;
+    border-radius: 5px;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px
+}
+
+.add-card__btn.add{
+    background-color: rgb(15, 136, 15);
+}
+
+.add-card__btn.cancel{
+    background-color: rgb(177, 0, 0)
+}
